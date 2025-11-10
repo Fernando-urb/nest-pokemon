@@ -24,7 +24,25 @@ npm i -g @nestjs/cli
 
 ```
 docker compase up-d
+
 ```
+
+```
+5.clonar el archivo __.env.example__ y renombrar la copia __.env__
+
+6.llenar las variables de entorno definidas en el ```.env```
+
+
+7ejecutar la aplicacion en dev
+```
+pnpm start:dev
+
+```
+
+8.Reconstruir la base d edatos con la semilla
+```
+http://localhost:300/api/v2/seed
+
 
 ##Stack Usado
 
